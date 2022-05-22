@@ -5,6 +5,7 @@
 
 .maxWidthWrapper {
   max-width: 1024px;
+  position:relative;
 }
 
 .header {

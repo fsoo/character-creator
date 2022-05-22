@@ -30,7 +30,7 @@ function App() {
 
   return (
     <main className={styles.characterEditor}>
-      <div className={styles.shadow}>here it is</div>
+      <div className={styles.shadow}></div>
 
       <MaxWidthWrapper className={styles.maxWidthWrapper}>
         <header className={styles.header}>
