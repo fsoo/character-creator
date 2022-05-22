@@ -30,6 +30,8 @@ function App() {
 
   return (
     <main className={styles.characterEditor}>
+      <div className={styles.shadow}>here it is</div>
+
       <MaxWidthWrapper className={styles.maxWidthWrapper}>
         <header className={styles.header}>
           <h1 className={styles.title}>Create your Character</h1>
@@ -37,7 +39,9 @@ function App() {
             Customize your character's look and style using the
             controls below. What sort of adventure will you embark on?{' '}
           </p>
+
         </header>
+       
         <div className={styles.controlColumn}>
           <ControlPane
             title="Bodies"
